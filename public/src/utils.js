@@ -6,7 +6,7 @@ define(['jquery'],function($){
             if(info.error){
                 location.href='/login.html';
             }
-        }
+        }       
     })
     
     $('.logout').on('click',function(){
